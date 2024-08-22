@@ -1,0 +1,149 @@
+.home {
+    position: relative; 
+    background-color: #eef1f6; 
+    padding: 200px 0; 
+    z-index: 10;
+    overflow: hidden;
+
+    .homeBox {
+    
+        .spanBefore {
+            position: relative;
+        
+            &::before {
+                content: "";
+                position: absolute;
+                left: -3%;
+                top: -115%;
+                width: 130px; 
+                height: 70px; 
+                background-image: url("../../images/hero-line.png"); 
+                background-position: center; 
+                background-size: cover; 
+                background-repeat: no-repeat;
+            }
+        
+            span {
+                font-size: 16px;
+                color: #ff3e66;
+            }
+
+        }
+    
+    .title {
+        font-size: 50px;
+        line-height: 50px; 
+        font-weight: 400; 
+        color: #0e1133; 
+        margin: 0; 
+        margin-top: 15px;
+    
+        span {
+            font-weight: 900; 
+            text-transform: capitalize;
+        }
+    
+    }
+    
+    p {
+        font-size: 18px; 
+        color: #0e1133;
+    }
+
+    .inputBox {
+        position: relative; 
+        background-color: white; 
+        padding: 15px 10px; 
+        border-left: 2px solid #ff3e66; 
+        width: 350px;
+    
+        i:first-child {
+            opacity: 0.4; 
+            margin-left: 10px;
+        }
+    
+        input {
+            border: none; 
+            offset: none; 
+            outline: none; 
+            margin-left: 10px;
+        }
+
+        i:last-child {
+            position: absolute; 
+            right: 15px; 
+            top: 20px; 
+            color: #ff3e66; 
+            opacity: 0.6;
+        }
+
+    }
+
+    }
+
+    .feedback {
+        margin-top: 40px;
+    
+        span {
+            display: inline-block; 
+            color: #0e1133; 
+            margin-left: 20px; 
+            font-size: 26px; 
+            font-weight: 800; 
+            line-height: 16px; 
+            width: 60px;
+        
+            span {
+                text-transform: capitalize; 
+                font-weight: 500; 
+                font-size: 13px; 
+                color: #505056; 
+                display: inline-block;
+                margin: 0;
+            }
+
+        }
+    
+    }
+
+    .shape-1 {
+        position: absolute; 
+        top: 50px; 
+        right: 350px; 
+        z-index: -1;
+    }
+
+    .shape-2 {
+        position: absolute; 
+        top: 480px; 
+        left: 230px; 
+        z-index: -1;
+    }
+
+    .shape-3 {
+        position: absolute; 
+        top: 50px; 
+        left: 130px; 
+        z-index: -1;
+    }
+
+    .shape-4 {
+        position: absolute; 
+        top: 210px; 
+        right: 130px; 
+        z-index: -1;
+    }
+
+    .right {
+        position: absolute; 
+        right: 0; 
+        bottom: 0; 
+        width: 48%;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+}
